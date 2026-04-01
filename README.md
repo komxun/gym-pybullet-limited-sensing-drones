@@ -50,7 +50,7 @@ gym-pybullet-drones-routing/
 ## Installation
 
 ```bash
-git clone https://github.com/komxun/gym-pybullet-drones-routing.git
+git clone https://github.com/komxun/gym-pybullet-limited-sensing-drones.git
 cd gym-pybullet-drones-routing/
 
 conda create -n drones python=3.10
