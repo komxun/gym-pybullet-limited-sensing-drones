@@ -1,0 +1,17 @@
+# =============================================================================
+# Evaluation overrides — applied on top of default.yaml + experiment config
+# =============================================================================
+
+# Fewer drones in a smaller arena for cleaner evaluation
+env:
+  num_drones: 5
+  episode_len_sec: 30
+
+# Eval mission area (same geometry as training, but with 5 drones)
+mission:
+  base_r: 30
+  base_r_d: 30
+  min_distance: 15
+  min_travel_distance: 35
+  radius_variation: 5
+  angle_variation_deg: 60

@@ -1,0 +1,13 @@
+# D-5 Model: obs_choice=ray, num_sensors=5
+# Inherits all other settings from default.yaml via train_all.py base merge
+
+env:
+  obs_choice: "ray"
+
+sensor:
+  num_sensors: 5
+
+paths:
+  results_dir: "experiments/D-5/results"
+  model_dir: "experiments/D-5/models"
+  log_dir: "experiments/D-5/tb_logs"

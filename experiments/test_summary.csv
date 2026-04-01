@@ -1,0 +1,2 @@
+model,obs_choice,num_sensors,n_episodes,mean_reward,std_reward,mean_steps,std_steps,success_rate,collision_rate,timeout_rate,intrusion_rate,mean_intrusion_steps
+D-5,ray,5,100,40.489224924280926,57.935807119020765,559.37,184.9626262248674,0.95,0.05,0.0,0.59,43.66

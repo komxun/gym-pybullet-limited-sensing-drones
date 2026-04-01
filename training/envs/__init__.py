@@ -1,0 +1,1 @@
+from training.envs.collision_avoidance_env import CollisionAvoidanceAviary

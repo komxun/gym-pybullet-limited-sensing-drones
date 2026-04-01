@@ -1,0 +1,12 @@
+# D-10 Model: obs_choice=ray, num_sensors=10
+
+env:
+  obs_choice: "ray"
+
+sensor:
+  num_sensors: 10
+
+paths:
+  results_dir: "experiments/D-10/results"
+  model_dir: "experiments/D-10/models"
+  log_dir: "experiments/D-10/tb_logs"

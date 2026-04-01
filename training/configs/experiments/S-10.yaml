@@ -1,0 +1,12 @@
+# S-10 Model: obs_choice=sensor, num_sensors=10
+
+env:
+  obs_choice: "sensor"
+
+sensor:
+  num_sensors: 10
+
+paths:
+  results_dir: "experiments/S-10/results"
+  model_dir: "experiments/S-10/models"
+  log_dir: "experiments/S-10/tb_logs"

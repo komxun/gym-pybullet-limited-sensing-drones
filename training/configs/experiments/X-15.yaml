@@ -1,0 +1,12 @@
+# X-15 Model: obs_choice=sector, num_sensors=15
+
+env:
+  obs_choice: "sector"
+
+sensor:
+  num_sensors: 15
+
+paths:
+  results_dir: "experiments/X-15/results"
+  model_dir: "experiments/X-15/models"
+  log_dir: "experiments/X-15/tb_logs"
